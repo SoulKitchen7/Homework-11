@@ -17,7 +17,7 @@ public class Main {
         System.out.println("");
         System.out.println("Задача - 3");
         System.out.println("");
-        int time = deliveryDistance(95);
+        int time = deliveryDistance(110);
         System.out.println("Потребуется дней:" + time);
     }
 
@@ -59,6 +59,7 @@ public class Main {
         }
         if (distance > 100) {
             System.out.println("Доставка не осуществляется");
+            return -1;
         }
         return time;
     }
