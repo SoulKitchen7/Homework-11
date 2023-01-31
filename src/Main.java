@@ -36,15 +36,15 @@ public class Main {
         int currentYear = LocalDate.now().getYear();
         if (osType == 0) {
             if (yearDevice == currentYear) {
-                System.out.println("Установить облегченную версию iOS");
-            } else {
                 System.out.println("Установить обычную версию iOS");
+            } else {
+                System.out.println("Установить облегченную версию iOS");
             }
         } else {
             if (yearDevice == currentYear) {
-                System.out.println("Установить облегченную версию Android");
-            } else {
                 System.out.println("Установить обычную версию Android");
+            } else {
+                System.out.println("Установить облегченную версию Android");
             }
         }
     }
